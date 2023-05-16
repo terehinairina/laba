@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="490.0" prefWidth="693.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.words.EditRole">
+   <children>
+      <TextField fx:id="email" layoutX="239.0" layoutY="72.0" prefHeight="26.0" prefWidth="264.0" />
+      <TextField fx:id="first" layoutX="240.0" layoutY="127.0" prefHeight="26.0" prefWidth="264.0" promptText="[first name]" />
+      <TextField fx:id="last" layoutX="240.0" layoutY="188.0" prefHeight="26.0" prefWidth="264.0" promptText="[last name]" />
+      <Button fx:id="apply" layoutX="181.0" layoutY="428.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="116.0" text="Apply" />
+      <Button fx:id="cancel" layoutX="381.0" layoutY="428.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="110.0" text="Cancel" />
+      <Label layoutX="93.0" layoutY="76.0" prefHeight="18.0" prefWidth="94.0" text="Email address" />
+      <Label layoutX="93.0" layoutY="342.0" prefHeight="18.0" prefWidth="94.0" text="Role" />
+      <Label layoutX="93.0" layoutY="192.0" prefHeight="18.0" prefWidth="94.0" text="Last name" />
+      <Label layoutX="96.0" layoutY="131.0" prefHeight="18.0" prefWidth="94.0" text="First name" />
+      <Label layoutX="93.0" layoutY="250.0" prefHeight="18.0" prefWidth="94.0" text="Office" />
+      <ComboBox fx:id="office" layoutX="240.0" layoutY="247.0" prefHeight="26.0" prefWidth="264.0" promptText="Office name" />
+      <RadioButton fx:id="user" layoutX="210.0" layoutY="333.0" mnemonicParsing="false" text="User" />
+      <RadioButton fx:id="administrator" layoutX="210.0" layoutY="368.0" mnemonicParsing="false" text="Administrator" />
+   </children>
+</AnchorPane>
